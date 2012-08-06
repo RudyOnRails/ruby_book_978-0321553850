@@ -1,0 +1,25 @@
+ruby -w will turn on warnings when running scripts from the CLI
+
+default levels of warnings is 1
+no warnings is -W0 and you can change level using -W#
+
+to directly execute a script:
+at CLI, type "which ruby" to get version, must know this in order to add to the Ruby script shebang line
+
+make sure to use the path from "which ruby" so that you use the RVM ruby in your shebang line
+
+chmod the file "chmod +x script_name.rb" to give it executable status
+
+run script from CLI by prepending "./" to the script name which means run in this directory, that script
+
+puts is put string really
+print does not add newline
+p is used for dumping variable values
+
+gets, get string, takes in what user types in using standard input
+
+comments start with #
+can also end a line # with a comment
+
+Ruby does not support multi-line comments using /* */ like most languages,
+instead it uses =being and =end as delimiters
