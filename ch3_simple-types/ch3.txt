@@ -1,0 +1,35 @@
+floats must have one digit to left of decimal point
+
+integers are objects of type Fixnum
+floating points are objects of type Float
+
+assign multiple variables at a time
+  x,y = 1,2
+  x = y = z = 2
+
+methods ending in ?, return a true or false
+methods ending in !, alter the value of the object
+
+numbers that begin with a zero (aside from just zero itself) are non-base-10 numbers
+0144 is base-8 (octal) for 100
+
+numbers that begin with 0x or 0X are in hexidecimal format
+nubmers that begin with 0b or 0B are in binary
+
+computers typically have difficulty accurately representing floating point numbers.
+a workaround is to use integers, representing 1.09 as 109, then dividing as necessary.
+another is to use the Ruby Standard Library's BigDecimal class. More in ch9, modules and includes.
+
+arithmetic operators can be used with assignment operators, but not with parallel assignment.
+
+when dividing integers, the result will be an integer, so the fix is to use at least one floating-point number
+
++, -, /, * are basics
+** returns a number to a given power
+% returns the remainder of a division
+
+overflow and underflow:
+when the value of data assigned to a variable requires more memory than what was alotted, the data can't be adequately represented.
+this is called an overflow (when a value beomes too large). when a value is too small it is called an underflow.
+
+Ruby handles large integers w/o a problem. the max value of a

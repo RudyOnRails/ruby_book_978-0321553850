@@ -12,7 +12,7 @@ chmod the file "chmod +x script_name.rb" to give it executable status
 
 run script from CLI by prepending "./" to the script name which means run in this directory, that script
 
-puts is put string really
+puts is put string
 print does not add newline
 p is used for dumping variable values
 
