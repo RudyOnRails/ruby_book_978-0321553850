@@ -1,0 +1,26 @@
+Ruby installation
+Test your Ruby installation
+  ruby --version
+irb is better for handling small smippets of code
+ruby documentation
+  ri ClassName
+  ri method_name
+  ri ClastName.method_name
+  ri ClassName::class_method_name
+  ri ClassName#instance_method_name
+  press f to move page forward, b to go back a page, q to quit
+a class is a blueprint for a thing, the basis of OOP
+the string class will define how Ruby handles quoted characters and text
+
+sample object creation
+  name = "kevin"
+  name.upcase # => KEVIN
+
+you can create multiple irb sessions
+  jobs commands lists all sessions running
+  fg n to switch to whichever session
+
+
+customizing irb...
+
+
