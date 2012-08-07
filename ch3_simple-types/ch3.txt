@@ -32,4 +32,65 @@ overflow and underflow:
 when the value of data assigned to a variable requires more memory than what was alotted, the data can't be adequately represented.
 this is called an overflow (when a value beomes too large). when a value is too small it is called an underflow.
 
-Ruby handles large integers w/o a problem. the max value of a
+Ruby handles large integers w/o a problem. the max value of a Fixnum should be about 1,073,741,823. Variables bigger than that value will
+be converted to Bignum, which have no maximum value. If Bignum values drop below Fixnum max, they will be converted back to objects of Fixnum class.
+
+Floating point numbers can still suffer from over/underflow. Overflows and underflows result in positive or negative infinity values, while underflows
+result in zero.
+
+max float value is stored in the Float::MAX constant, the minimum float is stored in Float::Min
+
+dividing a number by 0 is not legal in Ruby. dividing by 0 generates a ZeroDivisionError
+
+dividing a float by 0 returns the value of infinity
+
+dividing 0.0 by 0.0 returns NaN, Not a Number
+
+Ruby handles the division of negative numbers differently than C and Java. negative integer division is rounded towards negative infinity, not zero.
+
+Order of operators:
+exponents
+unary minus operator (-, the negation of a number)
+multiplication
+division
+modulus
+addition and subtraction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
