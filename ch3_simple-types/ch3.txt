@@ -56,10 +56,28 @@ division
 modulus
 addition and subtraction
 
+Math related methods in Math module
+sqrt, log, sin, cos, tan
+two constants, PI and E
 
+Math.method
+Math::CONSTANT:
 
+instead of referring to the class in the script, you can include it:
+include Math
 
+if method only has one argument, you don't need parens, but it looks better with them and keeps structure
 
+rand alone returns float > 0.0, but < 1.0.
+
+sqrt always returns a float
+
+Ruby 1.9 adds even? and odd? methods. each returning a boolean
+
+some numeric methods duplicate arithmetic operators...
+  div performs / 
+  modulo performs %
+  power! returns exponential calculation
 
 
 
