@@ -79,7 +79,7 @@ some numeric methods duplicate arithmetic operators...
   modulo performs %
   power! returns exponential calculation
 
-
+strings...
 
 
 
