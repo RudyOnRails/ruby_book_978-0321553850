@@ -81,6 +81,17 @@ some numeric methods duplicate arithmetic operators...
 
 strings...
 
+CONSTANTS:
+To refer to a constant in a module, use the scope resolution operator (::). ie: Math::PI
+
+time objects
+
+.utc
+.utc?
+local
+Time.now(year, month, day, hour, sec, microseconds)
+month can take 3 letter abbreviation as string, of course
+convert a timestamp to integer by just calling .to_i method
 
 
 
