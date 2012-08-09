@@ -1,6 +1,6 @@
 GrandOpening1871 = Time.new(2012, "may", 3, 10)
 
-def timestamp_pretty(t)
+def timestamp_pretty(t) #Shouldn't need this. Use strftime instead.
   "#{t.month}-#{t.day}-#{t.year}"
 end
 
