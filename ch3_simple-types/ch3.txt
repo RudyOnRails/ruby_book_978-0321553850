@@ -81,6 +81,8 @@ some numeric methods duplicate arithmetic operators...
 
 strings...
 
+great methods: slice, index, insert, chomp, chop, strip, upcase, downcase, capitalize
+
 CONSTANTS:
 To refer to a constant in a module, use the scope resolution operator (::). ie: Math::PI
 
